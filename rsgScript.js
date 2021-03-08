@@ -12,7 +12,7 @@ const output2 = ['Accountants', 'Ad Agency', 'Airline Agency', 'Construction Ser
 'News Delivery Service', 'Research Service', 'Insurance Service', 'Job Search Service', 'Web Design Service', 
 'Mobile App Development Service', 'Consultancy Service', 'Online Training Service', 'Life Coach Service', 
 'Pet Grooming Service', 'Contact Centre Services', 'Renewable Energy Researcher', 'Climate Change Blog', 'Delivery Service', 
-'Meeting Facilitator Services', 'Catering Service', 'Interior Design Service', 'Alternative Supermarket', 
+'Meeting Facilitator Service', 'Catering Service', 'Interior Design Service', 'Alternative Supermarket', 
 'Automotive Magazine', 'Medical Advisory Service', 'Recruitment Service', 'Home Security Service', 
 'Financial Independance Advisor', 'Recycling Services', 'Game Development', 'Streaming Service'];
 
