@@ -7,10 +7,10 @@ const output2 = ['Accountants', 'Ad Agency', 'Airline Agency', 'Construction Ser
 'Social Media Service', 'Dog Walking Service', 'Teaching Service', 'Food Delivery Service', 'Food Production Service', 
 'Cleaning Service', 'Hotel', 'Graphic Design Service', 'Renewable energy Service', 'Aerospace Development Service', 
 'Clothing Design Service', 'LifeStyle Blog', 'Telecommunication Service', 'Estate Agency', 'Retail Service', 
-'Restaurant', 'Space Travel Service', 'Financial Advisory Service', 'Teaching A Foreign Language Service', 'Investment Service', 
+'Restaurant', 'Space Travel Service', 'Financial Advisory Service', 'Foreign Language Tutor Service', 'Investment Service', 
 'Healthcare Service', 'Mental Health Service', 'Fitness Instructor', 'Legal Support Service', 'Careers Advisor', 
 'News Delivery Service', 'Research Service', 'Insurance Service', 'Job Search Service', 'Web Design Service', 
-'Mobile App Development Service', 'Consultancy Service', 'Online Training Service', 'Life Coach Service', 
+'Mobile App Development Service', 'Consultancy Service', 'Training Service', 'Life Coach Service', 
 'Pet Grooming Service', 'Contact Centre Services', 'Renewable Energy Researcher', 'Climate Change Blog', 'Delivery Service', 
 'Meeting Facilitator Service', 'Catering Service', 'Interior Design Service', 'Alternative Supermarket', 
 'Automotive Magazine', 'Medical Advisory Service', 'Recruitment Service', 'Home Security Service', 
@@ -35,8 +35,10 @@ const randomStartup = () => {
 
   let who = output3[Math.floor(Math.random() * output3.length)];
 
-    return `${what}, ${where}, ${who}`;
+  document.getElementById("output").innerHTML = `${what} ${where} ${who}`;
+  
+  //return `${what} ${where} ${who}`;
 
 };
 
-console.log(randomStartup());
+
