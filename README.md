@@ -32,7 +32,7 @@ link the JavaScript to the HTML to make the webpage interactive
 ## To-do List
 [x] Create resource list
 [x] Create JavaScript code for random business idea
-[ ] Create HTML for WebPage
+[x] Create HTML for WebPage
 [ ] Create CSS for WebPage
 [ ] Utilise version Control via Git
 [ ] Commit to github repository

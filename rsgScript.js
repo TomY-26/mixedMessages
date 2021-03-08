@@ -35,7 +35,11 @@ const randomStartup = () => {
 
   let who = output3[Math.floor(Math.random() * output3.length)];
 
-  document.getElementById("output").innerHTML = `${what} ${where} ${who}`;
+  document.getElementById("output1").innerHTML = `${what}`;
+
+  document.getElementById("output2").innerHTML = `${where}`;
+
+  document.getElementById("output3").innerHTML = `${who}`;
   
   //return `${what} ${where} ${who}`;
 
