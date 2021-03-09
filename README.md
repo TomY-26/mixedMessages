@@ -37,7 +37,7 @@ link the JavaScript to the HTML to make the webpage interactive
 [x] Create resource list
 [x] Create JavaScript code for random business idea
 [x] Create HTML for WebPage
-[ ] Create CSS for WebPage
+[x] Create CSS for WebPage
 [ ] Utilise version Control via Git
 [ ] Commit to github repository
 
