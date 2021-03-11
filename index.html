@@ -7,42 +7,37 @@
         <title>Random Startup Business Idea Generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./rsgStyles.css">
     </head>
     <body>
-        <div>
-            <h1>The Random Startup Business Generator</h1>
-         </div>
+      <header>
+        <h1>The Random Startup Business Generator</h1>
+      </header>
+      <main>
+        <section class="description">
+          <p>If you are looking for a new career path, but you can't decide what it is you want to do,<br>
+             then this site is here to help. Click the button to find your new career... if you don't <br>
+             like your new career, just click again!
+          </p>
+        </section>
 
-        <div>
-            <p>If you are looking for a new career path, but you can't decide what it is you want to do,<br>
-               then this site is here to help. Click the button to find your new career... if you don't <br>
-               like your new career, just click again!
-            </p>
-         </div>
+        <section class="selector">
+          <p>Ready to find your new Career? Just click the button!</p>
+          <button onclick="randomStartup()" class="btn">Click me!</button>
+        </section>
 
-        <div>
-            <p>Ready to find your new Career? Just click the button!</p>
-         </div>
-
-        <div>
-            <button onclick="randomStartup()">Click me!</button>
-         </div>
-
-        <div>
-            <div>
-                <p id="output1"></p>
-             </div>
-            
-            <div>
-                <p id="output2"></p>
-            </div>
-
-            <div>
-                <p id="output3"></p>
-             </div>
-
-         </div>
-        <script src="rsgScript.js" async defer></script>
+        <div class="outputs">
+          <div class="outputBox">
+            <p id="output1"></p>
+          </div>  
+          <div class="outputBox">
+            <p id="output2"></p>
+          </div>
+          <div class="outputBox">
+            <p id="output3"></p>
+          </div>
+        </div>
+    </main>
+      <script src="rsgScript.js" async defer></script>
     </body>
 </html>

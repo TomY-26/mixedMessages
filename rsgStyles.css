@@ -1,0 +1,48 @@
+body {background-color: #6e7c7c;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+h1 {font-size: 4rem;
+    color: #435560;
+    font-weight: bold;
+    text-shadow: 
+        -0.0625rem -0.0625rem 0 #c8c6a7,
+        0.0625rem -0.0625rem 0 #c8c6a7,
+        -0.0625rem 0.0625rem 0 #c8c6a7,
+        0.0625rem 0.0625rem 0 #c8c6a7;}
+
+p {color:#c8c6a7;
+    font-size: 1.5rem;}
+
+.description {margin-bottom: 5rem;}
+
+.selector {margin-bottom: 2rem;}
+
+.outputs {display: flex;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center; }
+
+.outputBox { padding: 0.75rem;
+             margin: 0.75rem;
+            }
+
+.btn {font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.25rem;
+      padding: 0.5rem 1rem;
+      border-radius: 5% 5% 5% 5%;
+      border-style: none;
+      background-color: #435560;
+      color: #c8c6a7;}
+
+.btn:hover {background-color: #c8c6a7;
+           color: #435560;}
+
+#output1, #output2, #output3 {color: #435560;
+                              font-size: 2rem;
+                              font-weight: bold;
+                              text-shadow: 
+                              -0.0625rem -0.0625rem 0 #c8c6a7,
+                              0.0625rem -0.0625rem 0 #c8c6a7,
+                              -0.0625rem 0.0625rem 0 #c8c6a7,
+                              0.0625rem 0.0625rem 0 #c8c6a7;}
